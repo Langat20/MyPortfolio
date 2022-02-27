@@ -391,3 +391,48 @@ header .navbar ul li a:hover {
     background-color: greenyellow;
     transform: scale(1.1);
 }
+
+.contact .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact .row .content {
+    flex: 1 1 30rem;
+    padding: 4rem;
+    padding-bottom: 0;
+}
+
+.contact .row .content .title {
+    color: #fff;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.contact .row {
+    margin-left: 160px;
+}
+
+.contact .row .content .info h3 {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: #eee;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.social-full {
+    margin-top: 10rem;
+}
+
+#head {
+    margin: 0px 0px 20px -150px;
+}
+
+.social h3 {
+    font-size: 3rem;
+    color: #eee;
+}
