@@ -278,6 +278,9 @@ header .navbar ul li a:hover {
     flex-wrap: wrap;
     padding: 1rem 0;
     padding-left: 3rem;
+    background-image: url(./images/comp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .education .box-container .box {
@@ -322,6 +325,9 @@ header .navbar ul li a:hover {
     flex-wrap: wrap;
     padding: 1rem 0;
     padding-left: 3rem;
+    background-image: url(./images/comp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .projects .box-container .box {
@@ -403,6 +409,9 @@ header .navbar ul li a:hover {
     flex: 1 1 30rem;
     padding: 4rem;
     padding-bottom: 0;
+    background-image: url(./images/comp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .contact .row .content .title {
