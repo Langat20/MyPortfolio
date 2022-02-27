@@ -315,7 +315,7 @@ header .navbar ul li a:hover {
     padding-top: 1rem 0;
 }
 
-/ .projects .box-container {
+.projects .box-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -385,4 +385,9 @@ header .navbar ul li a:hover {
     background: transparent;
     color: #eee;
     border-radius: 3px;
+}
+
+.projects .box-container .box button:hover {
+    background-color: greenyellow;
+    transform: scale(1.1);
 }
