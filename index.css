@@ -69,3 +69,66 @@ body section {
 .heading span {
     color: greenyellow;
 }
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+header .user img {
+    height: 17rem;
+    width: 17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 4px solid rgb(236, 208, 236);
+}
+
+.name {
+    font-size: 3.5rem;
+    color: white;
+}
+
+.post {
+    font-size: 2rem;
+    color: #eee;
+}
+
+header .navbar {
+    width: 100%;
+    background: rgb(218, 214, 214);
+}
+
+header .user {
+    width: 100%;
+    background: rgb(218, 214, 214);
+    text-align: center;
+}
+
+header .user .post {
+    width: 100%;
+    background: rgb(218, 214, 214);
+    text-align: center;
+    color: orangered;
+}
+
+header .user .name {
+    width: 100%;
+    background: rgb(218, 214, 214);
+    text-align: center;
+    color: orangered;
+}
+
+header .navbar ul {
+    list-style: none;
+    padding: 1rem 3rem;
+}
