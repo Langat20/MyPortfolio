@@ -436,3 +436,11 @@ header .navbar ul li a:hover {
     font-size: 3rem;
     color: #eee;
 }
+
+.social a i {
+    padding-top: 2rem;
+    padding: 3rem;
+    margin-left: -20px;
+    font-size: 2.5rem;
+    color: greenyellow;
+}
