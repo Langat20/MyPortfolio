@@ -314,3 +314,75 @@ header .navbar ul li a:hover {
     color: #eee;
     padding-top: 1rem 0;
 }
+
+/ .projects .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+
+.projects .box-container .box {
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+
+.projects .box-container .box span {
+    font-size: 1.3rem;
+    background: #222;
+    color: #fff;
+    border-radius: 5rem;
+    padding: .5rem 2.5rem;
+}
+
+.projects .box-container .box h3 {
+    font-size: 2rem;
+    color: greenyellow;
+    padding-top: 1.5rem;
+}
+
+.projects .box-container .box h4 {
+    font-size: 1.5rem;
+    color: #eee;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.projects .box-container .box p {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    color: #eee;
+    padding-top: 1rem 0;
+}
+
+.projects .box-container .box i {
+    position: absolute;
+    top: 1.5rem;
+    left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background: greenyellow;
+}
+
+.projects .box-container .box a {
+    padding: 3rem;
+}
+
+.projects .box-container .box button {
+    padding: 1rem;
+    margin-top: 1.3rem;
+    border: 1px solid greenyellow;
+    background: transparent;
+    color: #eee;
+    border-radius: 3px;
+}
