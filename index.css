@@ -197,3 +197,54 @@ header .navbar ul li a:hover {
     font-size: 30px;
     font-weight: bold;
 }
+
+.about {
+    background-image: url("./images/comp.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.about .row .info {
+    flex: 1 1 48rem;
+    padding: 2rem 1 rem;
+    padding-left: 6rem;
+}
+
+.about .row .info h3 {
+    font-size: 1.5rem;
+    color: orangered;
+    padding: 1rem 0;
+    font-weight: normal;
+    font-style: oblique;
+}
+
+.about .row .info p {
+    color: greenyellow;
+    font-size: 30px;
+    margin-top: 10px;
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: bold;
+}
+
+.about .row .info h3 span {
+    color: #eee;
+    padding: 0 .5rem;
+}
+
+.about .row .counter {
+    flex: 1 1 48rem;
+    padding: 2rem 1 rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
